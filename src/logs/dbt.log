@@ -1,0 +1,40 @@
+[0m17:14:18.900186 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 17:14:18.917072 | 4ba04dd0-5f35-498e-bd31-9297466553a6 ==============================
+[0m17:14:18.917072 [info ] [MainThread]: Running with dbt=1.11.2
+[0m17:14:18.917656 [debug] [MainThread]: running dbt with arguments {'log_cache_events': 'False', 'printer_width': '80', 'use_colors': 'True', 'introspect': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt init', 'profiles_dir': '/Users/mark/.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'quiet': 'False', 'fail_fast': 'False', 'no_print': 'None', 'static_parser': 'True', 'warn_error': 'None', 'empty': 'None', 'log_path': 'logs', 'cache_selected_only': 'False', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'write_json': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_format': 'default', 'debug': 'False', 'target_path': 'None'}
+[0m17:14:24.869440 [info ] [MainThread]: A project called mwaa_dbt already exists here.
+[0m17:14:24.872221 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 5.9980726, "process_in_blocks": "0", "process_kernel_time": 0.118322, "process_mem_max_rss": "111968256", "process_out_blocks": "0", "process_user_time": 0.619505}
+[0m17:14:24.873341 [debug] [MainThread]: Command `dbt init` succeeded at 17:14:24.873113 after 6.00 seconds
+[0m17:14:24.873888 [debug] [MainThread]: Flushing usage events
+[0m17:14:34.458216 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 17:14:34.470748 | 4a643b1d-8e9d-4cd6-bade-69ec58ec7b13 ==============================
+[0m17:14:34.470748 [info ] [MainThread]: Running with dbt=1.11.2
+[0m17:14:34.471292 [debug] [MainThread]: running dbt with arguments {'log_cache_events': 'False', 'version_check': 'True', 'log_format': 'default', 'send_anonymous_usage_stats': 'True', 'printer_width': '80', 'warn_error': 'None', 'debug': 'False', 'partial_parse': 'True', 'use_colors': 'True', 'fail_fast': 'False', 'static_parser': 'True', 'quiet': 'False', 'no_print': 'None', 'log_path': 'logs', 'profiles_dir': '/Users/mark/.dbt', 'introspect': 'True', 'indirect_selection': 'eager', 'target_path': 'None', 'invocation_command': 'dbt init', 'use_experimental_parser': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True', 'cache_selected_only': 'False'}
+[0m17:14:37.118813 [debug] [MainThread]: Starter project path: /Users/mark/projects/mwaa_data_project/.venv/lib/python3.13/site-packages/dbt/include/starter_project
+[0m17:14:37.128962 [info ] [MainThread]: 
+Your new dbt project "mwaa_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:14:37.129427 [info ] [MainThread]: Setting up your profile.
+[0m17:14:45.981498 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m17:14:45.981792 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m17:16:27.526994 [info ] [MainThread]: Profile mwaa_dbt written to /Users/mark/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:16:27.528729 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 113.09407, "process_in_blocks": "0", "process_kernel_time": 0.142572, "process_mem_max_rss": "125599744", "process_out_blocks": "0", "process_user_time": 0.705866}
+[0m17:16:27.529414 [debug] [MainThread]: Command `dbt init` succeeded at 17:16:27.529251 after 113.09 seconds
+[0m17:16:27.529847 [debug] [MainThread]: Flushing usage events
